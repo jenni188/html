@@ -81,31 +81,22 @@ height: 80px;
 
 
 
-.linkki1 a{
+.oma-kuva a{
     text-decoration: none;
     font-style: Courier Bold;
     font-size: 25px;
 }
 
-.linkki2 a{
-    text-decoration: none;
-    font-style: Courier Bold;
-    font-size: 25px;
-}
 
-.linkki3 a{
-    text-decoration: none;
-    font-style: Courier Bold;
-    font-size: 25px;
-}
-.linkki4 a{
-    text-decoration: none;
-    font-style: Courier Bold;
-    font-size: 25px;
-}
-
-.moi {
+.bottom-grid-item {
     position: absolute;
-    bottom: 5px;
-    right: 5px;
+    bottom: 0%;
+    right: 30px;
+}
+
+.bottom-grid-item a{
+    text-decoration: none;
+    font-style: Courier Bold;
+    font-size: 20px;
+    color:#004d4d ;
 }
