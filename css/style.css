@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:gray;
+    color: #e6ffff;
+    margin: 0;
+    font-family: Courier Bold;
+   
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.right-grid-container {
+    display: grid;
+    grid-template-columns: 60% 40% 
+}
+
+  .box-2{
+     height: 100%;
+     width: 10px;
+     top: 0;
+     bottom: 0;
+    
+
+
+
+  }
+  .grid-item {
+      width: 100%;
+
+    background-color: #e6ffff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.right-grid-item{
+    text-align: center;
+    
+}
+.bottom-grid-item{
+    display: grid;
+    right: 90%;
+
+}
+  
+.box-2 a {
+    color:	#004d4d;
+    font-family: Courier Bold;
+    text-indent: 100px;
+}
+
+.box-2 h1{
+background-color:  	#004d4d;
+margin-top: 0%;
+height: 80px;
+}
+
+.iso-kuva img{
+    width: 100%;
+    margin:0;
+    padding: 0%;
+} 
+
+.oma-kuva {
+    /* text-align: right; */
+    padding-right: 10px;
+    margin-bottom: 30px;
+
+}
+
+.oma-kuva img {
+    height: 100px;
+    width: 100px;
+}
+
+
+
+.linkki1 a{
+    text-decoration: none;
+    font-style: Courier Bold;
+    font-size: 25px;
+}
+
+.linkki2 a{
+    text-decoration: none;
+    font-style: Courier Bold;
+    font-size: 25px;
+}
+
+.linkki3 a{
+    text-decoration: none;
+    font-style: Courier Bold;
+    font-size: 25px;
+}
+.linkki4 a{
+    text-decoration: none;
+    font-style: Courier Bold;
+    font-size: 25px;
+}
+
+.moi {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
