@@ -13,12 +13,13 @@ body{
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
 }
 
 .right-grid-container {
     display: grid;
-    grid-template-columns: 60% 40% 
+    grid-template-columns: 60% 40%;
+    
 }
 
   .box-2{
@@ -41,13 +42,42 @@ body{
 
 .right-grid-item{
     text-align: center;
-    
+    color: #004d4d;
+    margin: 5px;
 }
+.right-grid-item-bottom {
+    color: #004d4d;
+    text-align: justify;
+    display: grid;
+}
+
 .bottom-grid-item{
     display: grid;
     right: 90%;
-
+   
 }
+
+.bottom-grid-item {
+    position: absolute;
+    bottom: 0%;
+    right: 30px;
+}
+
+.bottom-grid-item a{
+    text-decoration: none;
+    font-style: Courier Bold;
+    font-size: 20px;
+    color: black ;
+}
+
+.moi {
+    border: #004d4d solid 2px;
+    padding: 5px;
+    word-spacing: 10px;
+    
+}
+
+
   
 .box-2 a {
     color:	#004d4d;
@@ -60,6 +90,7 @@ background-color:  	#004d4d;
 margin-top: 0%;
 height: 80px;
 }
+
 
 .iso-kuva img{
     width: 100%;
@@ -88,15 +119,3 @@ height: 80px;
 }
 
 
-.bottom-grid-item {
-    position: absolute;
-    bottom: 0%;
-    right: 30px;
-}
-
-.bottom-grid-item a{
-    text-decoration: none;
-    font-style: Courier Bold;
-    font-size: 20px;
-    color:#004d4d ;
-}
